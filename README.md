@@ -1,6 +1,8 @@
 # PAN Chainguard SCM Automation
 
 Automated Root CA and Intermediate CA synchronization for Strata Cloud Manager (SCM) using Palo Alto Networks pan-chainguard.
+![Dashboard](./docs/pan-chainguard.png)
+---
 
 ## Features
 
