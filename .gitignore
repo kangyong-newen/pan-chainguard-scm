@@ -1,11 +1,14 @@
 # Secrets
-secrets/
-*.json
+secrets/*.json
+!secrets/*.json.example
 
 # Logs
 *.log
 
-# Data
+# Backups
+*.bak
+
+# Certificate archives
 data/certs/
 data/*.tgz
 
@@ -13,9 +16,8 @@ data/*.tgz
 __pycache__/
 *.pyc
 
-# VSCode
+# VS Code
 .vscode/
 
 # OS
 .DS_Store
-*.*ak
