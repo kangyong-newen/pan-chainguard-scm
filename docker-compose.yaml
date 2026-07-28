@@ -1,0 +1,15 @@
+services:
+  pan-chainguard:
+    build: .
+    container_name: pan-chainguard
+    restart: unless-stopped
+
+    stdin_open: true
+    tty: true
+
+    working_dir: /opt/pan-chainguard
+
+    volumes:
+      - ./data:/data
+      - ./scripts:/scripts
+      - ./secrets:/root/.keys

@@ -1,0 +1,21 @@
+# Secrets
+secrets/
+*.json
+
+# Logs
+*.log
+
+# Data
+data/certs/
+data/*.tgz
+
+# Python
+__pycache__/
+*.pyc
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+*.*ak
